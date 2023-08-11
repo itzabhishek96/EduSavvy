@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>EduSavvy</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="rs.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <script src="app.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+			if($(window).scrollTop()){
+				$('nav').addClass('black');
+			} else {
+				$('nav').removeClass('black');
+			}
+		});
+	</script>
+</head>
+<body>
+	<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="logo">
+				<img src="images/1.png" alt="logo">
+			</div>
+			<ul>
+				<li><a href="#home" class="navbar-link">Home</a></li>
+				<li><a href="#category" class="navbar-link">Category</a></li>
+				<li><a href="#about" class="navbar-link">About</a></li>
+				<li><a href="#courses" class="navbar-link">Courses</a></li>
+                <li><a href="#pricing" class="navbar-link">Future..</a></li>
+                <li><a href="#contact" class="navbar-link">Contact</a></li>
+                <li><a href="quiz.html" class="navbar-link">Exam</a></li>
+			</ul>
+			<a class="get-started" href="login.html">Get Started</a>
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>Education is not preparation for life; education is life itself.</p>
+				<h5>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits. Educational methods include teaching, training, storytelling, discussion and directed research!</h5>
+			</div>
+			<div class="svg-image">
+				<img src="images/home.svg" alt="svg">
+			</div>
+		</div>
+	</header>
+
+<!--info container--> 
+
+<section class="info-container">
+
+    <div class="box">
+        <i class="fas fa-user-graduate"></i>
+        <div class="info">
+            <h3>1000+</h3>
+            <p>students</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-laptop-code"></i>
+        <div class="info">
+            <h3>100+</h3>
+            <p>courses</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-chalkboard-teacher"></i>
+        <div class="info">
+            <h3>250+</h3>
+            <p>teachers</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-book"></i>
+        <div class="info">
+            <h3>500+</h3>
+            <p>subjects</p>
+        </div>
+    </div>
+
+</section>
+
+<section class="category" id="category">
+
+    <div class="heading">
+        <p>Our Top Category</p>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-code"></i>
+            <h3>programming</h3>
+            <p>Learn the fundamentals of programming concept. It will open the right doors for you as a developer.
+            </p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-paint-brush"></i>
+            <h3>graphic design</h3>
+            <p>Connect with UI/UX design skill and connect it with your core designing ideas and shape it in digital
+                form.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>marketing</h3>
+            <p>Give your marketing carrer a sophisticated start by learning fundamental concepts of marketing
+                skills.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-chart-bar"></i>
+            <h3>Data Analytics</h3>
+            <p>Give your data analysis carrer a sophisticated start by learning fundamental concepts of data
+                analysis.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-code"></i>
+            <h3>Cyber Security</h3>
+            <p>Learn the latest cyber trends from the experts and interact with the real-world projects at a time .
+            </p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-chart-bar"></i>
+            <h3>Data Product Manager </h3>
+            <p>Follow the step by step process to learn data and gain understanding of software based products in
+                depth.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="about" id="about">
+
+    <div class="image">
+        <img src="images/about.svg" alt="">
+    </div>
+
+    <div class="content">
+        <span>about us</span>
+        <h3>best online platform for e-learning.</h3>
+        <p>it is one of the best e-learning platform where you can plan for one to one doubt solving session and 24
+            hrs support .</p>
+        <a href="#" class="btn">read more</a>
+    </div>
+
+</section>
+   
+	<!-- Some Popular Subjects -->
+
+    <section class="courses" id="courses">
+
+        <div class="heading">
+            <p>Popular Courses<p>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/frontend.svg" alt="">
+                    <h3>front-end development</h3>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>front-end development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, deleniti!</p>
+                    <a href="playlist.html" class="btn">select course</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/Teaching.svg" alt="">
+                    <h3>teaching & training</h3>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>teaching & training</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, deleniti!</p>
+                    <a href="images/vid-2.mp4" class="btn">select course</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/Music.svg" alt="">
+                    <h3>music & dance</h3>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>music & dance</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, deleniti!</p>
+                    <a href="#" class="btn">select course</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/digitalm.svg" alt="">
+                    <h3>digital marketing</h3>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>digital marketing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, deleniti!</p>
+                    <a href="#" class="btn">select course</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/graphic.svg" alt="">
+                    <h3>graphic design</h3>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>graphic design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, deleniti!</p>
+                    <a href="#" class="btn">select course</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/scie.svg" alt="">
+                    <h3>Scientific Analysis</h3>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Scientific Analysis</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, deleniti!</p>
+                    <a href="#" class="btn">select course</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/bank.svg" alt="">
+                    <h3>Banking</h3>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Banking</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, deleniti!</p>
+                    <a href="#" class="btn">select course</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/Animation.svg" alt="">
+                    <h3>Animation</h3>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Animation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, deleniti!</p>
+                    <a href="#" class="btn">select course</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+	<!-- Future -->
+    <div class="future" id="pricing">
+        <div class="centered-text">
+          <p>What is the future of e-learning?</p>
+        </div>
+        <div class="about-content">
+            <div class="image-side">
+                <img src="images/future-icon.svg" sizes="100*100" alt="">
+            </div>
+          <div class="text-side">
+            <h2>The Exciting Future of E-Learning</h2>
+            <p>
+              E-Learning is undergoing a transformative journey, poised to revolutionize education. With advancements in technology, personalized learning experiences, and global connectivity, the future of e-learning holds immense promise.
+            </p>
+            <p>
+              <strong>Adaptive Learning:</strong> Adaptive learning platforms will use artificial intelligence to tailor courses to individual student needs, providing a more efficient and engaging learning process.
+            </p>
+            <p>
+              <strong>Virtual Reality (VR) and Augmented Reality (AR):</strong> These technologies will create immersive learning environments, allowing students to interact with complex concepts in a tangible way.
+            </p>          
+            <a href="https://your-article-link.com" class="btn">Read More</a>
+          </div>
+        </div>
+      </div>
+
+<!--contact-->
+<div class="container" id="contact">
+    <div class="content">
+      <div class="left-side">
+        <div class="address details">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="topic">Address</div>
+          <div class="text-one">Thane</div>
+          <div class="text-two">400607</div>
+        </div>
+        <div class="phone details">
+          <i class="fas fa-phone-alt"></i>
+          <div class="topic">Phone</div>
+          <div class="text-one">+91 8652XXXXXX</div>
+          <div class="text-two">+91 9221XXXXXX</div>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope"></i>
+          <div class="topic">Email</div>
+          <div class="text-one">E-learn@gmail.com</div>
+          <div class="text-two">abhi@gmail.com</div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="topic-text">Send us a message</div>
+        <p>If you have any work from us or any types of quries related to our courses, you can send us message from here. It's my pleasure to help you.</p>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Enter your email">
+        </div>
+        <div class="input-box message-box">
+            <textarea placeholder="Enter your message"></textarea>
+        </div>
+        <div class="button">
+          <input type="button" value="Send Now" >
+        </div>
+      </form>
+    </div>
+    </div>
+  </div>
+
+
+
+  <section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our branches</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Thane </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Mumbai </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Delhi </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Pune </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Bangalore</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> about </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> courses </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> future </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+
+            <a href="#"> <i class="fab fa-twitter"></i> Twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> Instagram </a>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> Linkedin </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +91 8652xxxxxx </a>
+            <a href="#"> <i class="fas fa-phone"></i> +91 907xxxxxxx </a>
+            <a href="#"> <i class="fas fa-envelope"></i> abhi@gmail.com </a>
+            <a href="#"> <i class="fa fa-location-arrow"aria-hidden="true"></i> Thane,400607 </a>
+        </div>
+
+    </div>
+
+    <div class="credit"><span>Created by Abhishek Jagtap</span> | all rights reserved </div>
+
+</section>
+
+</body>
+</html>
